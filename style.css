@@ -1,0 +1,145 @@
+body {
+	background-color: #32064A;
+}
+
+.boxStyle {
+	border: solid 2px #fff;
+	border-radius: 20px;
+	color: white;
+	width: 380px;
+	height: 350px;
+	padding: 1%;
+	position: absolute;
+	top: 20%;
+	left: 33.3%;
+	z-index: 2;
+}
+
+.center {
+	text-align: center;
+}
+
+li {
+	list-style: none;
+}
+
+.colGrad {
+	background-image: linear-gradient(#E42C6A 0%, #db1c5c 40%, #E42C6A 100%)
+}
+
+.shadow {
+	box-shadow: 20px 20px 50px -20px #E42C6A;
+}
+
+#searchBar {
+	position: absolute;
+  	left: 35%;
+  	margin-left: -50px;
+  	border: solid;
+  	border-radius: 10px;
+  	padding: 4px;
+}
+
+.button1 {
+	background-color: #000;
+	color: #fff;
+	font-size: 12px;
+	padding: 2px 12px;
+	border: none;
+	border-radius: 10px;
+	transition: all 1s;
+	text-transform: uppercase;
+}
+
+.button1:hover {
+	transform: scale(1.1);
+}
+
+.centerLi {
+	position: absolute;
+  	left: 35%;
+  	margin-left: -50px;
+}
+
+.bigBox {
+	background: #db1c5c;
+	width: 150px;
+	height: 150px;
+	border-radius: 20px;
+	left: -3%;
+	top: -3%;
+	position: absolute;
+}
+
+.bigBox2 {
+	background: #db1c5c;
+	width: 150px;
+	height: 150px;
+	border-radius: 20px;
+	right: 30%;
+	top: -10%;
+	position: absolute;
+}
+
+.mediumBox {
+	background: #db1c5c;
+	width: 120px;
+	height: 120px;
+	border-radius: 20px;
+	left: 25%;
+	top: 40%;
+	position: absolute;
+	z-index: 0;
+}
+
+.mediumBox2 {
+	background: #db1c5c;
+	width: 120px;
+	height: 120px;
+	border-radius: 20px;
+	left: 2%;
+	top: 75%;
+	position: absolute;
+}
+
+.mediumBox3 {
+	background: #db1c5c;
+	width: 120px;
+	height: 120px;
+	border-radius: 20px;
+	right: 15%;
+	top: 55%;
+	position: absolute;
+}
+
+.smallBox {
+	background: #db1c5c;
+	width: 80px;
+	height: 80px;
+	border-radius: 20px;
+	right: 5%;
+	top: 40%;
+	position: absolute;
+}
+
+.smallBox2 {
+	background: #db1c5c;
+	width: 80px;
+	height: 80px;
+	border-radius: 20px;
+	right: 50%;
+	bottom: 5%;
+	position: absolute;
+}
+
+.shadowSmall {
+	box-shadow: 20px 20px 30px -20px #E42C6A;
+}
+
+.verySmallshadow {
+	box-shadow: 10px 10px 20px -10px #E42C6A;
+}
+
+.done {
+  text-decoration: line-through;
+}
