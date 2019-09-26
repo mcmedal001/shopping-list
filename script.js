@@ -1,7 +1,7 @@
-var input = document.getElementById("inputfield");
-var button = document.getElementById("addNewButton");
-var ul = document.querySelector("ul");
-var deleteBtns = document.getElementsByClassName("delete");
+const input = document.getElementById("inputfield");
+const button = document.getElementById("addNewButton");
+const ul = document.querySelector("ul");
+const deleteBtns = document.getElementsByClassName("delete");
 
 function inputLenght() {
 	return input.value.length;
