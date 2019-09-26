@@ -1,3 +1,5 @@
+
+//changed vars to const ***
 const input = document.getElementById("inputfield");
 const button = document.getElementById("addNewButton");
 const ul = document.querySelector("ul");
